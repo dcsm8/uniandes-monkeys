@@ -24,6 +24,15 @@ This project aims to test the Ghost CMS application by simulating random user ac
 
 - Node.js v14.17.3
 - Google Chrome browser
+- Docker
+
+## Optional
+
+If you don't have Ghost CMS 3.41.1 installed execute this command
+
+```bash
+docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost:3.41.1
+```
 
 ## Installation
 
