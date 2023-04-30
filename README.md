@@ -6,11 +6,17 @@ This project demonstrates the use of Cypress to perform monkey testing on the Gh
 
 - University: Universidad de los Andes
 - Project: Monkey testing of the Ghost CMS application
-- Grupo: 2
+
+## Members
+
+- David Sánchez
+- Juan Chiroque
+- Diego Correa
+- Julio Cardenas
 
 This project aims to test the Ghost CMS application by simulating random user actions and analyzing the application's behavior under such conditions. Using Cypress, we can easily automate this process and detect potential issues that may arise when using the application.
 
-## demo
+## Demo
 
 ![Image Description](./docs/uniandes-monkeys.gif)
 
@@ -43,7 +49,7 @@ npm install
 
 4. Update the baseUrl in the cypress.config.js
 
-```json
+```bash
 baseUrl: "http://localhost:3001"
 ```
 
