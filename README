@@ -10,6 +10,10 @@ This project demonstrates the use of Cypress to perform monkey testing on the Gh
 
 This project aims to test the Ghost CMS application by simulating random user actions and analyzing the application's behavior under such conditions. Using Cypress, we can easily automate this process and detect potential issues that may arise when using the application.
 
+## demo
+
+![Image Description](./docs/uniandes-monkeys.gif)
+
 ## Prerequisites
 
 - Node.js v14.17.3
@@ -22,7 +26,7 @@ To set up the project on your local machine, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/dcsm8/uniandes-monkeys.git
 ```
 
 2. Navigate to the project directory:
