@@ -47,7 +47,7 @@ git clone https://github.com/dcsm8/uniandes-monkeys.git
 2. Navigate to the project directory:
 
 ```bash
-cd monkey-testing
+cd uniandes-monkeys
 ```
 
 3. Install the required dependencies:
